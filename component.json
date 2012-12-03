@@ -1,0 +1,15 @@
+{
+    "name": "hyperion-qs"
+  , "repo": "qualiancy/hyperion-qs"
+  , "version": "0.0.0"
+  , "description": "Querystrin encode/decode for node.js and the browser."
+  , "license": "MIT"
+  , "keywords": [
+    ]
+  , "main": "lib/qs.js"
+  , "scripts": [
+        "lib/qs.js"
+    ]
+  , "dependencies": {}
+  , "development": {}
+}
