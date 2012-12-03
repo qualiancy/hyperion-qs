@@ -9,7 +9,11 @@
   , "main": "lib/qs.js"
   , "scripts": [
         "lib/qs.js"
+      , "lib/qs/stringify.js"
+      , "lib/qs/uri.js"
     ]
-  , "dependencies": {}
+  , "dependencies": {
+        "qualiancy/tea-type": "0.1.0"
+    }
   , "development": {}
 }
