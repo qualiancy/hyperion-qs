@@ -9,6 +9,7 @@
   , "main": "lib/qs.js"
   , "scripts": [
         "lib/qs.js"
+      , "lib/qs/parse.js"
       , "lib/qs/stringify.js"
       , "lib/qs/uri.js"
     ]
