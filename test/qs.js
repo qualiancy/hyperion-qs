@@ -3,7 +3,6 @@ var common = {
   , '0=2': { 0: '2' }
   , 'h%3Dello=univ%3Derse': { 'h=ello': 'univ=erse' }
   , 'foo=bar%3Dbaz': { foo: 'bar=baz' }
-  , 'hello[world]=one&hello[universe]=two': { hello: { world: 'one', universe: 'two' }}
 };
 
 
@@ -23,7 +22,8 @@ describe('.stringify()', function () {
 
   // type coersion
   addTests({
-    '0=2': { 0: 2 }
+      '0=2': { 0: 2 }
+    , 'hello[world]=one&hello[universe]=two': { hello: { world: 'one', universe: 'two' }}
   });
 
   // prefix
@@ -34,7 +34,7 @@ describe('.stringify()', function () {
 
 });
 
-describe.skip('.parse()', function () {
+describe('.parse()', function () {
 
   function addTests (list) {
     Object.keys(list).forEach(function (subject) {
