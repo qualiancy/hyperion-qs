@@ -1,7 +1,7 @@
 {
     "name": "hyperion-qs"
-  , "version": "0.0.0"
-  , "description": "Querystrin encode/decode for node.js and the browser."
+  , "version": "0.1.0"
+  , "description": "Querystring encode/decode for node.js and the browser."
   , "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)"
   , "license": "MIT"
   , "keywords": [

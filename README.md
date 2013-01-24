@@ -1,6 +1,6 @@
 # hyperion-qs
 
-> Querystrin encode/decode for node.js and the browser.
+> Querystring encode/decode for node.js and the browser.
 
 ## Installation
 
